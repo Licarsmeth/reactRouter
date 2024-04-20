@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import App from "./App";
-import Profile from "./Profile";
-import Spinach from "./Spinach";
-import Popeye from "./Popeye";
-import DefaultProfile from "./DefaultProfile";
+import App from "./components/App";
+import Profile from "./components/Profile";
+import Spinach from "./components/Spinach";
+import Popeye from "./components/Popeye";
+import DefaultProfile from "./components/DefaultProfile";
 
 const router = createBrowserRouter([
   {
